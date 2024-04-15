@@ -1,0 +1,73 @@
+*,
+::before,
+::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Raleway", serif;
+}
+
+html {
+  font-size: 80%;
+}
+
+body {
+  color: linen;
+  background: linear-gradient(45deg,blue,green);
+}
+img {
+  padding-top: 3%;
+  display:block;
+  max-width:60%;
+  margin:auto;
+}
+.title {
+  text-align:center;
+  font-size:5rem;
+  padding-top:2%;
+}
+.author-name {
+  padding-top: 2rem;
+  padding-bottom: .5rem;
+  padding-left:5%;
+}
+.publish-date {
+  padding-left:5%;
+}
+.taborri-bio {
+  padding-left:5%;
+}
+.author-name a:hover {
+  background-color: white;
+}
+.taborri-bio {
+  padding-top: 5%;
+}
+.text {
+  padding-top:5%;
+  padding-left:5%;
+  padding-right:5%;
+  padding-bottom:5%;
+}
+.cite {
+  padding-top:2%;
+  text-align:right;
+}
+
+button {
+  display: block;
+  width: 20%;
+  margin: 3em auto;
+  height: 2em;
+  font-size: 1.1rem;
+  background-color: white;
+  border-color: white;
+  min-width: 300px;
+}
+header{
+  background: linear-gradient(45deg,blue,green);
+  padding: 3rem;
+  text-align: center;
+  font-size: 2rem;
+  color: white;
+}
