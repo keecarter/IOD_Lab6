@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dice Exercise</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Anton%7CBaskervville%7CRaleway&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+    />
+    <link rel="stylesheet" href="styles2.css" />
+    <script src="dice.js"></script>
+  </head>
+  <body>
+    <main>
+      <section class="heading">
+        <header class="hero">
+            <h1 class="title">Devs Inc. Dice Generator</h1>
+            <img src="boardgame.png" alt="Picture of boardgame" loading="lazy" class="Taborri-img"/>
+        </header>
+            <article class = "row">
+
+              <article>
+                  <img class = "Dice" src="D4.png" alt="d4_dice_image" width="200">
+                  <button class="button" id="d4" onclick="rollDice(1,4,`roll4`)">Roll a d4</button>
+                  <p id="roll4"></p>
+              </article>
+          
+              <article>
+                  <img class = "Dice" src="D6.png" alt="d6_dice_image" width="200">
+                  <button class="button" id="d6" onclick="rollDice(1,6,`roll6`)">Roll a d6</button>
+                  <p id="roll6"></p>
+              </article>
+          
+              <article>
+                  <img class = "Dice" src="D8.png" alt="d8_dice_image" width="200">
+                  <button class="button" id="d8" onclick="rollDice(1,8,`roll8`)">Roll a d8</button>
+                  <p id="roll8"></p>
+              </article>
+            
+              <article>
+              <img class = "Dice" src="D10.png" alt="d10_dice_image" width="200">
+                  <button class="button" id="d10" onclick="rollDice(1,10,`roll10`)">Roll a d10</button>
+                  <p id="roll10"></p>
+              </article>
+          
+              </article>
+  <footer>
+    <span>I do not claim the rights to any media content used</span>
+  </footer>
+</section>
+</main>
+</body>
+</html>
